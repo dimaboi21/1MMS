@@ -3,14 +3,14 @@ function startTimer() {
   let seconds = 10;
   const timerElement = document.getElementById("timer");
   let timerInterval = setInterval(function () {
-    timerElement.textContent = formatTime(minuten) + ":" + formatTime(seconds);
+    timerElement.textContent = formatTime(minutes) + ":" + formatTime(seconds);
     seconds--;
-    if(-minutes === 0&& seconds === 0) {
-        clearInterval (timerInterval)
-        timerElement.textContent = "00:00"
-    } else if (seconds<0){
-        minutes--
-        seconds = 59
+    if (minutes === 0 && seconds === 0) {
+      clearInterval(timerInterval);
+      timerElement.textContent = "00:00";
+    } else if (seconds < 0) {
+      minutes--;
+      seconds = 59;
     }
   }, 1000);
 
