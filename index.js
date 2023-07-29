@@ -13,7 +13,6 @@ function startTimer() {
       seconds = 59;
     }
   }, 1000);
-
   function formatTime(time) {
     return time < 10 ? "0" + time : time;
   }
