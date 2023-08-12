@@ -20,6 +20,7 @@ a {
 
 html,
 body {
+  background-color: #1e1e1e;
   scroll-behavior: smooth;
 }
 
@@ -190,12 +191,12 @@ body {
 .nav__list {
   display: flex;
   justify-content: center;
-  padding-top: 144px;
+  margin-right: 15px;
 }
 .nav__item {
   font-size: 20px;
   line-height: 24px;
-  color: #3a3a3a;
+  color: #5a5a5a;
 }
 .nav__item:hover{
   font-family: italic;
@@ -354,6 +355,122 @@ body {
 .product {
   min-height: 100vh;
   background-color: #1e1e1e;
+}
+.product__all-inner{
+  display: flex;
+}
+.product__inner {
+  display: flex;
+  justify-content: center;
+  margin-right: 155px; 
+}
+.product__programs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 646px;
+}
+.product__link {
+  margin-bottom: 38px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: italic;
+}
+.product__programs:last-child {
+  margin-bottom: 0;
+}
+.nav-mod1 {
+  margin-bottom: 4px;
+}
+.product__descr-inner {
+  max-width: 883px;
+  width: 100%;
+  border-radius: 40px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.product__foto-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.product__foto-item {
+  border-radius: 26px;
+  background-color: #e2e2e2;
+  height: 235px;
+  width: 405px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product__foto-item:first-child {
+  margin-top: 54px;
+}
+.product__foto-item:last-child {
+  margin-bottom: 0;
+}
+.product__foto-text {
+  color: #232323;
+  font-size: 20px;
+  font-weight: 400;
+}
+.product__descr-item {
+  max-width: 341px;
+  width: 100%;
+}
+.product__small-item {
+  display: flex;
+}
+.product__descr-price {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 100;
+  font-style: italic;
+  margin-bottom: 21px;
+}
+.fix-line {
+  width: 29px;
+}
+.product__descr-button {
+  border-radius: 122px;
+  background: #f8c104;
+  width: 341px;
+  height: 59px;
+  color: #0d0d0d;
+  font-size: 28px;
+  font-weight: 100;
+  font-style: italic;
+  cursor: pointer;
+  margin-bottom: 54px;
+}
+.product__descr-descr {
+  color: #fff;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 8px;
+}
+.product__descr {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 54px;
+  font-family: italic;
+}
+.product__small-textLeft {
+  color: #fff;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+}
+.product__small-textRight {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: italic;
 }
 
 
